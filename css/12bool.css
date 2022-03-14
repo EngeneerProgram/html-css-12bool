@@ -14,16 +14,33 @@
     border:1px solid white;
     height: 50px;
     color:white;
-}
+    }
+
+.debug [class^="col-"].nested{
+        background-color: lime;
+        height:30px;
+    }
+
+
+    .padding{
+        padding:10px;
+        
+    }
+
+    
 .container{
     max-width: 1170px;
     margin:0 auto;
     
 }
 
-.nested{
-    background-color: lime;
+.container-2{
+    max-width: 1170px;
+    margin:0 auto;
+    margin-top:2rem;
 }
+
+
 .row{
     display:Flex;
     flex-direction: row;
